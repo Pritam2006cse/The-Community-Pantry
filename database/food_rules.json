@@ -2,50 +2,50 @@
     "Cooked Rice": {
         "room_temperature_hours": 2,
         "refrigerated_hours": 48,
-        "priority": "HIGH",
-        "storage": "Refrigerate below 4°C",
+        "risk_level": "HIGH",
+        "storage_temperature": "Refrigerate below 4°C",
         "notes": "Cooked rice has a high risk of Bacillus cereus growth if left at room temperature."
     },
     "Cooked Vegetables": {
         "room_temperature_hours": 4,
         "refrigerated_hours": 48,
-        "priority": "MEDIUM",
-        "storage": "Refrigerate below 4°C",
+        "risk_level": "MEDIUM",
+        "storage_temperature": "Refrigerate below 4°C",
         "notes": "Cooked rice has a high risk of Bacillus cereus growth if left at room temperature."
     },
     "Cooked Meat": {
         "room_temperature_hours": 3,
         "refrigerated_hours": 48,
-        "priority": "CRITICAL",
-        "storage": "Refrigerate below 4°C",
+        "risk_level": "CRITICAL",
+        "storage_temperature": "Refrigerate below 4°C",
         "notes": "Cooked rice has a high risk of Bacillus cereus growth if left at room temperature."
     },
     "Bakery": {
         "room_temperature_hours": 24,
         "refrigerated_hours": 96,
-        "priority": "LOW",
-        "storage": "Store in a cool, dry place",
+        "risk_level": "LOW",
+        "storage_temperature": "Store in a cool, dry place",
         "notes": "Cooked rice has a high risk of Bacillus cereus growth if left at room temperature."
     },
     "Fresh Fruit": {
         "room_temperature_hours": 48,
         "refrigerated_hours": 168,
-        "priority": "LOW",
-        "storage": "Keep cool and dry",
+        "risk_level": "LOW",
+        "storage_temperature": "Keep cool and dry",
         "notes": "Cooked rice has a high risk of Bacillus cereus growth if left at room temperature."
     },
     "Cut Fruit": {
         "room_temperature_hours": 5,
         "refrigerated_hours": 24,
-        "priority": "HIGH",
-        "storage": "Refrigerate below 4°C",
+        "risk_level": "HIGH",
+        "storage_temperature": "Refrigerate below 4°C",
         "notes": "Cooked rice has a high risk of Bacillus cereus growth if left at room temperature."
     },
     "Dairy": {
         "room_temperature_hours": 2,
         "refrigerated_hours": 48,
-        "priority": "HIGH",
-        "storage": "Refrigerate below 4°C",
+        "risk_level": "HIGH",
+        "storage_temperature": "Refrigerate below 4°C",
         "notes": "Cooked rice has a high risk of Bacillus cereus growth if left at room temperature."
     }
 }

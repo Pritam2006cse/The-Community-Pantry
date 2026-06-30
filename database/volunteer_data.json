@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "name": "Rahul Sharma",
+        "phone": "9876543210",
+        "available": true,
+        "vehicle": "Bike",
+        "max_capacity": 70,
+        "rating": 4.9,
+        "latitude": 22.5726,
+        "longitude": 88.3639,
+        "completed_pickups": 42,
+        "active_pickups": 1,
+        "last_assignment": "2026-06-29T13:10:00"
+    },
+    {
+        "id": 2,
+        "name": "Ananya Das",
+        "phone": "9876543211",
+        "available": true,
+        "vehicle": "Car",
+        "max_capacity": 250,
+        "rating": 4.8,
+        "latitude": 22.5750,
+        "longitude": 88.3550,
+        "completed_pickups": 38,
+        "active_pickups": 0,
+        "last_assignment": "2026-06-29T11:25:00"
+    },
+    {
+        "id": 3,
+        "name": "Amit Roy",
+        "phone": "9876543212",
+        "available": false,
+        "vehicle": "Scooter",
+        "max_capacity": 50,
+        "rating": 4.7,
+        "latitude": 22.5600,
+        "longitude": 88.3700,
+        "completed_pickups": 25,
+        "active_pickups": 2,
+        "last_assignment": "2026-06-29T14:30:00"
+    },
+    {
+        "id": 4,
+        "name": "Priya Sen",
+        "phone": "9876543213",
+        "available": true,
+        "vehicle": "Van",
+        "max_capacity": 600,
+        "rating": 5.0,
+        "latitude": 22.5805,
+        "longitude": 88.3612,
+        "completed_pickups": 55,
+        "active_pickups": 0,
+        "last_assignment": "2026-06-29T09:15:00"
+    }
+]

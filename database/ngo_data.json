@@ -1,0 +1,100 @@
+[
+    {
+        "id": 1,
+        "name": "Hope Kitchen",
+        "city": "Kolkata",
+        "accepted_categories": [
+            "Cooked Rice",
+            "Cooked Vegetables",
+            "Bakery"
+        ],
+        "capacity": 500,
+        "available_capacity": 320,
+        "has_refrigeration": true,
+        "contact": "+91-9876543210",
+        "latitude": 20.2961,
+        "longitude": 85.8245
+    },
+    {
+        "id": 2,
+        "name": "Food For All",
+        "city": "Kolkata",
+        "accepted_categories": [
+            "Fresh Fruit",
+            "Bakery"
+        ],
+        "capacity": 150,
+        "available_capacity": 100,
+        "has_refrigeration": false,
+        "contact": "+91-9876543210",
+        "latitude": 20.3158,
+        "longitude": 85.8201
+    },
+    {
+        "id": 3,
+        "name": "Community Care",
+        "city": "Kolkata",
+        "accepted_categories": [
+            "Cooked Rice",
+            "Cooked Meat",
+            "Cooked Vegetables",
+            "Dairy"
+        ],
+        "capacity": 1000,
+        "available_capacity": 750,
+        "has_refrigeration": true,
+        "contact": "+91-9876543212",
+        "latitude": 20.5707,
+        "longitude": 85.1363
+    },
+    {
+        "id": 4,
+        "name": "Robin Hood Army",
+        "city": "Kolkata",
+        "accepted_categories": [
+            "Cooked Rice",
+            "Cooked Vegetables",
+            "Bread & Bakery",
+            "Packaged Snacks"
+        ],
+        "capacity": 800,
+        "available_capacity": 600,
+        "has_refrigeration": false,
+        "contact": "+91-9123456789",
+        "latitude": 20.2598,
+        "longitude": 85.8189
+    },
+    {
+        "id": 5,
+        "name": "Sunrise Shelter",
+        "city": "Kolkata",
+        "accepted_categories": [
+            "Bread & Bakery",
+            "Packaged Snacks",
+            "Fresh Juice"
+        ],
+        "capacity": 300,
+        "available_capacity": 200,
+        "has_refrigeration": false,
+        "contact": "+91-9234567890",
+        "latitude": 20.4693,
+        "longitude": 85.1471
+    },
+    {
+        "id": 6,
+        "name": "Serving Hands Kolkata",
+        "city": "Kolkata",
+        "accepted_categories": [
+            "Cooked Rice",
+            "Cooked Vegetables",
+            "Dal",
+            "Packaged Foods"
+        ],
+        "capacity": 700,
+        "available_capacity": 500,
+        "has_refrigeration": true,
+        "contact": "+91-9876509876",
+        "latitude": 20.4086,
+        "longitude": 85.6583
+    }
+]
