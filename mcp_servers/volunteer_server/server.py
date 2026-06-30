@@ -7,8 +7,8 @@ mcp = FastMCP(
 )
 
 @mcp.tool()
-def recommend_volunteer(donation, donor_lat,donor_lon):
-    return get_suggested_volunteers(donation,donor_lat,donor_lon)
+def recommend_volunteer(quantity, donor_lat,donor_lon):
+    return get_suggested_volunteers(quantity,donor_lat,donor_lon)
 
 if __name__ == "__main__":
     asyncio.run(mcp.run())

@@ -59,7 +59,7 @@ class VolunteerRecommendation(BaseModel):
     vehicle: str
     max_capacity: int
     rating: float
-    reasons: List[str]
+    reasons: list[str]
 
 class RescueStatus(str, Enum):
     CREATED = "CREATED"

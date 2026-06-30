@@ -53,7 +53,7 @@ def calculate_distance(lat1,lon1, lat2, lon2):
     distance = R * c
     return distance 
 
-def calculate_volunteer_score(volunteer,donation,donor_lat,donor_lon):
+def calculate_volunteer_score(volunteer,quantity,donor_lat,donor_lon):
     score_breakdown = {}
     reasons = []
     if not volunteer["available"]:
@@ -64,7 +64,7 @@ def calculate_volunteer_score(volunteer,donation,donor_lat,donor_lon):
     distance_score = volunteer_distance_score(distance)
     score_breakdown["distance"] = distance_score
     reasons.append(f"Distance: {distance} km")
-    vehicle_points = vehicle_score(volunteer["vehicle"],donation.quantity)
+    vehicle_points = vehicle_score(volunteer["vehicle"],quantity)
     if vehicle_points is None:
         return None
     score_breakdown["vehicle"] = vehicle_points
@@ -113,11 +113,11 @@ def workload_penalty(active_pickups):
         return -10
     return None
 
-def get_suggested_volunteers(donation,donor_lat,donor_lon):
+def get_suggested_volunteers(quantity,donor_lat,donor_lon):
     volunteers = load_volunteers()
     suggestions = []
     for vol in volunteers:
-        rec = calculate_volunteer_score(vol,donation,donor_lat,donor_lon)
+        rec = calculate_volunteer_score(vol,quantity,donor_lat,donor_lon)
         if rec:
             suggestions.append(rec)
     suggestions.sort(key=lambda x: x.total_score,reverse=True)
