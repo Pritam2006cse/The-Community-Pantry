@@ -1,25 +1,25 @@
 from google.adk.agents import Agent
+from .prompt import LOGISTICS_AGENT_PROMPT
 from ...configs.settings import MODEL_NAME
-from .prompt import FOOD_AGENT_PROMPT
 from google.adk.tools.mcp_tool.mcp_toolset import MCPToolset
 from google.adk.tools.mcp_tool.mcp_session_manager import StdioConnectionParams
 from mcp import StdioServerParameters
 
-food_tools = MCPToolset(
+logistic_tools = MCPToolset(
     connection_params = StdioConnectionParams(
         server_params=StdioServerParameters(
             command="python",
             args=[
                 "-m",
-                "mcp_servers.food_server.server",
+                "mcp_servers.logistics_server.server",
             ]
         )
     )
 )
-food_agent = Agent(
-    name = "food_agent",
+logistic_agent = Agent(
+    name = "logistic_agent",
     model = MODEL_NAME,
-    instruction = FOOD_AGENT_PROMPT,
-    description = "Evaluates donated food and provides food safety recommendations" ,
-    tools = [food_tools]
+    instruction = LOGISTICS_AGENT_PROMPT,
+    description = "Plans food pickup logistics.",
+    tools = [logistic_tools]
 )

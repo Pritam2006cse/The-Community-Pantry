@@ -50,6 +50,8 @@ class NGORecomendation(BaseModel):
     has_refrigeration: bool
     accepted: bool
     reasons: list[str]
+    latitude: float
+    longitude: float
 
 class VolunteerRecommendation(BaseModel):
     volunteer_name: str
@@ -60,6 +62,15 @@ class VolunteerRecommendation(BaseModel):
     max_capacity: int
     rating: float
     reasons: list[str]
+    latitude: float
+    longitude: float
+
+class LogisticsPlan(BaseModel):
+    travel_distance_km: float
+    estimated_travel_time_minutes: int
+    estimated_pickup_time: datetime
+    feasible: bool
+    recommendation: str
 
 class RescueStatus(str, Enum):
     CREATED = "CREATED"
@@ -74,5 +85,5 @@ class RescuePlan(BaseModel):
     food_analysis: Optional[FoodAnalysis] = None
     recommended_ngos: list[NGORecomendation] = []
     assigned_volunteer: Optional[VolunteerRecommendation] = None
-    estimated_pickup_time: Optional[float] = None
+    logistics_plan: Optional[LogisticsPlan] = None
     status: RescueStatus = RescueStatus.CREATED 

@@ -69,7 +69,9 @@ def calculate_ngo_score(ngo,category,quantity,refrigeration_required,donor_lat,d
         available_capacity = ngo["available_capacity"],
         has_refrigeration = ngo["has_refrigeration"],
         accepted = True,
-        reasons = reasons
+        reasons = reasons,
+        latitude = ngo["latitude"],
+        longitude = ngo["longitude"]
     )
     
 def find_matching_ngos(

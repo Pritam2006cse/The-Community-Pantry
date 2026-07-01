@@ -73,7 +73,7 @@ def calculate_volunteer_score(volunteer,quantity,donor_lat,donor_lon):
     score_breakdown["rating"] = rate
     reasons.append(f"Rating: {volunteer['rating']}/5")
     experience = experience_score(volunteer["completed_pickups"])
-    score_breakdown["experience"]
+    score_breakdown["experience"] = experience
     reasons.append(f"Completed pickups: {volunteer['completed_pickups']}")
     workload = workload_penalty(volunteer["active_pickups"])
     if workload:
@@ -88,7 +88,9 @@ def calculate_volunteer_score(volunteer,quantity,donor_lat,donor_lon):
         vehicle=volunteer["vehicle"],
         max_capacity=VEHICLE_CAPACITY.get(volunteer["vehicle"]),
         rating=volunteer["rating"],
-        reasons=reasons
+        reasons=reasons,
+        latitude = volunteer["latitude"],
+        longitude = volunteer["longitude"]
     )
 
 def experience_score(completed_pickups):

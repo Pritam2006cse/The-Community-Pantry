@@ -12,8 +12,8 @@
         "available_capacity": 320,
         "has_refrigeration": true,
         "contact": "+91-9876543210",
-        "latitude": 20.2961,
-        "longitude": 85.8245
+        "latitude": 22.5743,
+        "longitude": 88.3664
     },
     {
         "id": 2,
@@ -27,8 +27,8 @@
         "available_capacity": 100,
         "has_refrigeration": false,
         "contact": "+91-9876543210",
-        "latitude": 20.3158,
-        "longitude": 85.8201
+        "latitude": 22.5734,
+        "longitude": 88.3664
     },
     {
         "id": 3,
@@ -44,8 +44,8 @@
         "available_capacity": 750,
         "has_refrigeration": true,
         "contact": "+91-9876543212",
-        "latitude": 20.5707,
-        "longitude": 85.1363
+        "latitude": 22.5732497,
+        "longitude": 88.3576733
     },
     {
         "id": 4,
@@ -61,8 +61,8 @@
         "available_capacity": 600,
         "has_refrigeration": false,
         "contact": "+91-9123456789",
-        "latitude": 20.2598,
-        "longitude": 85.8189
+        "latitude": 22.5715,
+        "longitude": 88.3639
     },
     {
         "id": 5,
@@ -77,8 +77,8 @@
         "available_capacity": 200,
         "has_refrigeration": false,
         "contact": "+91-9234567890",
-        "latitude": 20.4693,
-        "longitude": 85.1471
+        "latitude": 22.5695,
+        "longitude": 88.3740
     },
     {
         "id": 6,
@@ -94,7 +94,7 @@
         "available_capacity": 500,
         "has_refrigeration": true,
         "contact": "+91-9876509876",
-        "latitude": 20.4086,
-        "longitude": 85.6583
+        "latitude": 22.5567579,
+        "longitude": 88.3664936
     }
 ]

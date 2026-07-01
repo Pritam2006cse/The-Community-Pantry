@@ -49,8 +49,8 @@
         "vehicle": "Van",
         "max_capacity": 600,
         "rating": 5.0,
-        "latitude": 22.5805,
-        "longitude": 88.3612,
+        "latitude": 22.5771,
+        "longitude": 88.3664,
         "completed_pickups": 55,
         "active_pickups": 0,
         "last_assignment": "2026-06-29T09:15:00"
